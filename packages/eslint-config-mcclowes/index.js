@@ -33,9 +33,9 @@ module.exports = {
 		"react/boolean-prop-naming": ["error", { 
 			"propTypeNames": ["bool", "mutuallyExclusiveTrueProps"],
 		}, ],
-		"react/no-array-index-key": "always",
-		"react/prop-types": "always",
-		"react/sort-prop-types": [ "warn", "always", ],
+		"react/no-array-index-key": 1,
+		"react/prop-types": 1,
+		"react/sort-prop-types": 1,
 		"react/self-closing-comp": [ "error", {
 			"component": true,
 			"html": true
