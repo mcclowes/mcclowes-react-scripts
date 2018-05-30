@@ -72,6 +72,20 @@ export default {
 			},
 
 			{
+				test: /\.(jpg|jpeg|gif|png|ico)$/,
+				exclude: /node_modules/,
+				options: {
+					name: "[path][name].[ext]?[hash]",
+				}
+			},
+
+			{
+				test: /\.svg$/,
+				exclude: /node_modules/,
+				loader: "svg-inline-loader",
+			},
+
+			{
 				test: /\.(graphql|gql)$/,
 				exclude: /node_modules/,
 				loader: require.resolve("graphql-tag/loader"),
