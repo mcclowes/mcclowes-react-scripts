@@ -1,1 +1,6 @@
-# My project's README
+# mcclowes-react-scripts
+
+Custom scripts, providing:
+
+- eslint
+- 
