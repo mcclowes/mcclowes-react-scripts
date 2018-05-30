@@ -30,9 +30,11 @@ module.exports = {
 		"space-infix-ops": [ "warn", ],
 		"template-curly-spacing": [ "warn", "always", ],
 		
-		"react/boolean-prop-naming": [ "warn", "always", ],
+		"react/boolean-prop-naming": ["error", { 
+			"propTypeNames": ["bool", "mutuallyExclusiveTrueProps"],
+		}, ],
 		"react/no-array-index-key": "always",
-		"react/prop-types": [ "warn", "always", ],
+		"react/prop-types": "always",
 		"react/sort-prop-types": [ "warn", "always", ],
 		"react/self-closing-comp": [ "error", {
 			"component": true,
