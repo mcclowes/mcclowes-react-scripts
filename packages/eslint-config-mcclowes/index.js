@@ -18,7 +18,10 @@ module.exports = {
 		"array-bracket-spacing": ["warn", "always",],
 		"semi": ["warn", "always"],
 		"comma-dangle": ["warn", "always",],
-		"comma-spacing": ["warn", { "before": false, "after": true }],
+		"comma-spacing": ["warn", { 
+			"before": false, 
+			"after": true
+		}],
 		"guard-for-in": "off",
 		"indent": ["warn", "tab",],
 		"lines-around-directive": ["warn", "always",],
@@ -27,8 +30,16 @@ module.exports = {
 		"space-infix-ops": ["warn",],
 		"template-curly-spacing": ["warn", "always",],
 		
+		"react/no-array-index-key": ["warn", "always",],
+		"react/boolean-prop-naming": ["warn", "always",],
+		"react/prop-types": ["warn", "always",],
+		"react/sort-prop-types": ["warn", "always",],
+		"react/self-closing-comp": ["error", {
+			"component": true,
+			"html": true
+		}],
+
 		"react/jsx-curly-spacing": ["warn", "always",],
-		"react/jsx-curly-spacing": ["warn", "always"],
 		"react/jsx-equals-spacing": ["warn", "always",],
 		"react/jsx-first-prop-new-line": ["warn", "multiline",],
 		"react/jsx-indent-props": ["warn", "tab",],
