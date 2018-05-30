@@ -1,6 +1,7 @@
 {
 	"name": "mcclowes-react-scripts",
-	"version": "0.1.0",
+	"description": "Work in progress",
+	"version": "0.1.1",
 	"repository": "https://bitbucket.org/mcclowes/mcclowes-react-scripts",
 	"license": "MIT",
 	"eslintConfig": {
