@@ -74,6 +74,7 @@ export default {
 			{
 				test: /\.(jpg|jpeg|gif|png|ico)$/,
 				exclude: /node_modules/,
+				loader: "file-loader",
 				options: {
 					name: "[path][name].[ext]?[hash]",
 				},

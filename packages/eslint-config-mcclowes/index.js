@@ -46,7 +46,6 @@ module.exports = {
 		"react/jsx-first-prop-new-line": [ "warn", "multiline", ],
 		"react/jsx-indent": [ "warn", "tab", ],
 		"react/jsx-indent-props": [ "warn", "tab", ],
-		"react/jsx-space-before-closing": [ "warn", "always", ],
 		"react/jsx-wrap-multilines": 1,
 
 		"no-unused-vars": [
