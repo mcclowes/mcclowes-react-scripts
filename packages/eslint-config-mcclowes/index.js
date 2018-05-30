@@ -49,9 +49,7 @@ module.exports = {
 		"react/jsx-sort-props": 1,
 		"react/jsx-space-before-closing": [ "warn", "always", ],
 		"react/jsx-wrap-multilines": 1,
-		"react/jsx-sort-default-props": [ "warn", {
-			"ignoreCase": true,
-		}, ],
+		"react/jsx-sort-default-props": 1,
 
 		"no-unused-vars": [
 			"warn",
