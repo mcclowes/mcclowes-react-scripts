@@ -46,9 +46,9 @@ module.exports = {
 		"react/jsx-first-prop-new-line": [ "warn", "multiline", ],
 		"react/jsx-indent": [ "warn", "tab", ],
 		"react/jsx-indent-props": [ "warn", "tab", ],
-		"react/jsx-sort-props": true,
+		"react/jsx-sort-props": 1,
 		"react/jsx-space-before-closing": [ "warn", "always", ],
-		"react/jsx-wrap-multilines": true,
+		"react/jsx-wrap-multilines": 1,
 		"react/jsx-sort-default-props": [ "warn", {
 			"ignoreCase": true,
 		}, ],
