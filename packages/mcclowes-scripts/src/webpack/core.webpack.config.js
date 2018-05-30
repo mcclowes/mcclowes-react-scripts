@@ -72,6 +72,11 @@ export default {
 			},
 
 			{
+				test: /\.css$/,
+				use: [ 'style-loader', 'css-loader' ]
+			}
+
+			{
 				test: /\.(jpg|jpeg|gif|png|ico)$/,
 				exclude: /node_modules/,
 				loader: "file-loader",
