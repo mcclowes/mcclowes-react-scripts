@@ -1,0 +1,25 @@
+{
+	"name": "mcclowes-react-scripts",
+	"version": "0.1.0",
+	"repository": "https://bitbucket.org/mcclowes/mcclowes-react-scripts",
+	"license": "MIT",
+	"eslintConfig": {
+		"extends": "mcclowes"
+	},
+	"scripts": {
+		"publish": "lerna run format && lerna run build && lerna publish --force-publish=*"
+	},
+	"babel": {
+		"presets": [
+			"mcclowes"
+		]
+	},
+	"devDependencies": {
+		"eslint": "^4.16.0",
+		"lerna": "^2.8.0"
+	},
+	"dependencies": {
+		"babel-core": "^6.26.0",
+		"graphql": "^0.12.3"
+	}
+}
