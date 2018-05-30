@@ -12,7 +12,7 @@ const appDirectory = fs.realpathSync(process.cwd());
 const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
 
 export const addLoader = loader =>
-	R.over(R.lensPath(["module", "rules"]), R.append(loader));
+	R.over(R.lensPath([ "module", "rules", ]), R.append(loader));
 
 export const addPlugin = plugin =>
 	R.over(R.lensProp("plugins"), R.append(plugin));
@@ -32,7 +32,7 @@ export default {
 	},
 
 	resolve: {
-		modules: ["node_modules", resolveApp("node_modules"), resolveApp(".")],
+		modules: [ "node_modules", resolveApp("node_modules"), resolveApp("."), ],
 	},
 
 	module: {
@@ -45,7 +45,7 @@ export default {
 					{
 						loader: require.resolve("eslint-loader"),
 						options: {
-							extends: [require.resolve("eslint-config-mcclowes")],
+							extends: [ require.resolve("eslint-config-mcclowes"), ],
 						},
 					},
 				],
@@ -57,7 +57,7 @@ export default {
 				use: {
 					loader: require.resolve("babel-loader"),
 					options: {
-						presets: ["mcclowes"],
+						presets: [ "mcclowes", ],
 						forceEnv: "production",
 					},
 				},
@@ -126,6 +126,6 @@ export default {
 
 		new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
 
-		new SimpleProgressWebpackPlugin({ format: "compact" }),
+		new SimpleProgressWebpackPlugin({ format: "compact", }),
 	],
 };

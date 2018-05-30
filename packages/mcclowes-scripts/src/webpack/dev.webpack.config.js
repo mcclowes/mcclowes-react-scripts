@@ -1,11 +1,11 @@
-import core, { addPlugin, packageJSON } from "./core.webpack.config";
+import core, { addPlugin, packageJSON, } from "./core.webpack.config";
 import webpack from "webpack";
 import * as R from "ramda";
 
 module.exports = R.pipe(
 	R.assoc("devtool", "cheap-eval-source-map"),
 
-	R.dissocPath(["entry", "vendor"]),
+	R.dissocPath([ "entry", "vendor", ]),
 
 	R.assoc("devServer", {
 		compress: true,
@@ -18,7 +18,7 @@ module.exports = R.pipe(
 		stats: "minimal",
 	}),
 
-	R.assocPath(["output", "filename"], "static/js/[name].bundle.js"),
+	R.assocPath([ "output", "filename", ], "static/js/[name].bundle.js"),
 
 	addPlugin(new webpack.NamedModulesPlugin()),
 )(core);

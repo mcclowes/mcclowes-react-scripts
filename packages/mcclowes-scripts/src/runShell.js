@@ -1,4 +1,4 @@
-import { spawn } from "child_process";
+import { spawn, } from "child_process";
 import * as R from "ramda";
 
 const collapseOptions = R.reduce(R.merge, {});
@@ -6,7 +6,7 @@ const partitionArgs = R.partition(R.is(Object));
 
 export default (cmd, ...rest) =>
 	new Promise(done => {
-		const [options, args] = partitionArgs(rest);
+		const [ options, args, ] = partitionArgs(rest);
 
 		const child = spawn(cmd, args, collapseOptions(options));
 

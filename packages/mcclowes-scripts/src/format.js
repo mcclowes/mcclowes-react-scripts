@@ -1,6 +1,6 @@
 import runShell from "./runShell";
 
-export default async ({ subcmd }) => {
+export default async ({ subcmd, }) => {
 	console.log("eslint js");
 	
 	await runShell("./node_modules/.bin/eslint", "--color", "--fix", "src");

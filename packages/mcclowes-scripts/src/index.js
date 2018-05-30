@@ -4,7 +4,7 @@ import pack from "./pack";
 import start from "./start";
 import watch from "./watch";
 
-const [_, __, cmd, subcmd] = process.argv;
+const [ _, __, cmd, subcmd, ] = process.argv;
 
 const printCmds = () =>
 	console.error(`
@@ -31,7 +31,7 @@ if (!cmd) {
 	printCmds();
 } else {
 	const noop = () => {
-		console.log(`${cmd} is an invalid command`);
+		console.log(`${ cmd } is an invalid command`);
 		printCmds();
 	};
 
@@ -41,5 +41,5 @@ if (!cmd) {
 		pack,
 		start,
 		watch,
-	}[cmd] || noop)({ cmd, subcmd }));
+	}[cmd] || noop)({ cmd, subcmd, }));
 }

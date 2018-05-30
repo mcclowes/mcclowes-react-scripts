@@ -1,7 +1,7 @@
-import core, { addPlugin } from "./core.webpack.config";
+import core, { addPlugin, } from "./core.webpack.config";
 import UglifyJsPlugin from "uglifyjs-webpack-plugin";
 import * as R from "ramda";
-import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
+import { BundleAnalyzerPlugin, } from "webpack-bundle-analyzer";
 import CopyWebpackPlugin from "copy-webpack-plugin";
 import webpack from "webpack";
 
@@ -45,7 +45,7 @@ const uglifyJsPlugin = new UglifyJsPlugin({
 
 const environmentVariablesPlugin = new webpack.DefinePlugin({
 	"process.env": {
-		NODE_ENV: '"production"',
+		NODE_ENV: "\"production\"",
 	},
 });
 
@@ -56,7 +56,7 @@ module.exports = R.pipe(
 	addPlugin(bundleAnalyzerPlugin),
 	addPlugin(uglifyJsPlugin),
 	addPlugin(environmentVariablesPlugin),
-	addPlugin(CopyWebpackPlugin(["public"])),
+	addPlugin(CopyWebpackPlugin([ "public", ])),
 
 	...vendorChunkPlugins.map(addPlugin),
 
