@@ -76,7 +76,7 @@ export default {
 				exclude: /node_modules/,
 				options: {
 					name: "[path][name].[ext]?[hash]",
-				}
+				},
 			},
 
 			{
