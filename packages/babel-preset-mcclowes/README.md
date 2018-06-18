@@ -1,1 +1,3 @@
-# My project's README
+# babe-preset-mcclowes
+
+Babel preset to support mcclowes-scripts
