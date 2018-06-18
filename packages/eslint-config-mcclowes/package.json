@@ -3,7 +3,7 @@
 	"description": "Config to make things looks pretty",
 	"version": "0.3.0",
 	"main": "index.js",
-	"author": "mcclowes",
+	"author": "Max Clayton Clowes <maxcc@me.com>",
 	"license": "MIT",
 	"eslintConfig": {
 		"extends": "./index.js"

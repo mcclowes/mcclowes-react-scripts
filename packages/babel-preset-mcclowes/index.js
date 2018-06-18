@@ -6,6 +6,7 @@ module.exports = {
 	plugins: [
 		require.resolve("babel-plugin-add-react-displayname"),
 		require.resolve("babel-plugin-inline-react-svg"),
+		require.resolve("babel-plugin-styled-components"),
 		require.resolve("babel-plugin-preval"),
 		require.resolve("babel-plugin-syntax-dynamic-import"),
 		require.resolve("babel-plugin-transform-class-properties"),
