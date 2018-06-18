@@ -39,6 +39,10 @@ export default {
 		rules: [
 			{
 				test: /\.js$/,
+				loader: "shebang-loader",
+			},
+			{
+				test: /\.js$/,
 				enforce: "pre",
 				include: resolveApp("src"),
 				use: [

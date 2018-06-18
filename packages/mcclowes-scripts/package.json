@@ -44,6 +44,7 @@
 		"markdown-loader": "^2.0.2",
 		"ramda": "^0.25.0",
 		"react-dev-utils": "^5.0.0",
+		"shebang-loader": "0.0.1",
 		"simple-progress-webpack-plugin": "^1.0.4",
 		"thread-loader": "^1.1.2",
 		"uglifyjs-webpack-plugin": "^1.1.6",
