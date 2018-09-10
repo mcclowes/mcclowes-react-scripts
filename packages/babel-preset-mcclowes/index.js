@@ -11,8 +11,13 @@ module.exports = {
 		require.resolve("babel-plugin-transform-class-properties"),
 		require.resolve("babel-plugin-transform-decorators-legacy"),
 		require.resolve("babel-plugin-transform-export-extensions"),
-		require.resolve("babel-plugin-styled-components"),
 		require.resolve("babel-plugin-transform-regenerator"),
+		require.resolve("babel-plugin-transform-optional-chaining"),
+
+		[
+			require.resolve("babel-plugin-styled-components"),
+			{ "ssr": true },
+		],
 
 		[
 			require.resolve("babel-plugin-transform-object-rest-spread"),

@@ -3,4 +3,8 @@
 Custom scripts, providing:
 
 - eslint
-- 
+
+
+# Run...
+
+`npm publish`
