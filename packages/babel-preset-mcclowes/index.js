@@ -15,11 +15,6 @@ module.exports = {
 		require.resolve("babel-plugin-transform-optional-chaining"),
 
 		[
-			require.resolve("babel-plugin-styled-components"),
-			{ "ssr": true },
-		],
-
-		[
 			require.resolve("babel-plugin-transform-object-rest-spread"),
 			{ "useBuiltIns": true }
 		],
