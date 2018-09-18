@@ -13,6 +13,7 @@ module.exports = {
 		require.resolve("babel-plugin-transform-export-extensions"),
 		require.resolve("babel-plugin-transform-regenerator"),
 
+		// Configured
 		[	
 			require.resolve("babel-plugin-styled-components"),	
 			{ "ssr": true },	
