@@ -1,7 +1,7 @@
 {
 	"name": "babel-preset-mcclowes",
 	"main": "index.js",
-	"version": "0.5.2",
+	"version": "0.5.3",
 	"author": "Max Clayton Clowes <maxcc@me.com>",
 	"repository": "git@bitbucket.org:mcclowes/babel-preset-mcclowes.git",
 	"eslintConfig": {
