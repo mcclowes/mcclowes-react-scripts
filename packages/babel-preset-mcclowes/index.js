@@ -13,9 +13,6 @@ module.exports = {
 		require.resolve("babel-plugin-transform-export-extensions"),
 		require.resolve("babel-plugin-transform-regenerator"),
 
-		//Optional
-		require.resolve("plugin-proposal-optional-chaining"),
-
 		[	
 			require.resolve("babel-plugin-styled-components"),	
 			{ "ssr": true },	
@@ -36,7 +33,7 @@ module.exports = {
 			{
 				polyfill: false,
 			},
-		],
+		],	
 
 		//Optional
 		require.resolve("plugin-proposal-optional-chaining"),
