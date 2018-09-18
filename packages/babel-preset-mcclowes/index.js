@@ -12,7 +12,7 @@ module.exports = {
 		require.resolve("babel-plugin-transform-decorators-legacy"),
 		require.resolve("babel-plugin-transform-export-extensions"),
 		require.resolve("babel-plugin-transform-regenerator"),
-		require.resolve("babel-plugin-transform-optional-chaining"),
+		require.resolve("plugin-proposal-optional-chaining"),
 
 		[	
 			require.resolve("babel-plugin-styled-components"),	
