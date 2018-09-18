@@ -3,4 +3,4 @@
 Eslint config file for formatting used by mcclowes-scripts
 
 
-dsija doia
+dsija doiadas
