@@ -9,7 +9,7 @@
 		"extends": "mcclowes"
 	},
 	"scripts": {
-		"publish": "lerna run format && lerna run build && lerna version patch && lerna publish --force-publish=*"
+		"publish": "lerna run format && lerna run build && lerna version patch && lerna publish --force-publish"
 	},
 	"babel": {
 		"presets": [
