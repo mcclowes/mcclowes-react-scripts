@@ -12,5 +12,9 @@ Custom scripts, providing:
 
 ### Publishing
 
-Do it
-
+```
+    git commit -am 'v' && 
+    git push && 
+    npm version patch && 
+    git push;
+```
