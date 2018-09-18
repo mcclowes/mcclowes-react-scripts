@@ -9,20 +9,21 @@
 		"extends": "mcclowes"
 	},
 	"scripts": {
-		"publish": "lerna run format && lerna run build && lerna version patch && lerna publish --force-publish"
+		"publish": "lerna run format && lerna run build && lerna publish --force-publish=*"
 	},
 	"babel": {
 		"presets": [
 			"mcclowes"
 		]
 	},
-	"devDependencies": {},
+	"devDependencies": {
+		"lerna": "^2.8.0"
+	},
 	"dependencies": {
 		"babel-core": "^6.26.0",
 		"css-loader": "^1.0.0",
 		"eslint": "^5.6.0",
 		"graphql": "^14.0.2",
-		"lerna": "^3.4.0",
 		"svg-inline-loader": "^0.8.0"
 	}
 }
