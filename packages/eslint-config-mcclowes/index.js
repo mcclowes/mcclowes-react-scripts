@@ -24,6 +24,7 @@ module.exports = {
         after: true,
       },
     ],
+    
     'guard-for-in': 'off',
     indent: ['warn', 'tab'],
     'lines-around-directive': ['warn', 'always'],
@@ -38,6 +39,7 @@ module.exports = {
         propTypeNames: ['bool', 'mutuallyExclusiveTrueProps'],
       },
     ],
+
     'react/no-array-index-key': 1,
     'react/prop-types': 1,
     'react/sort-prop-types': 1,
