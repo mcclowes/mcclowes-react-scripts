@@ -12,6 +12,8 @@ module.exports = {
 		require.resolve("babel-plugin-transform-decorators-legacy"),
 		require.resolve("babel-plugin-transform-export-extensions"),
 		require.resolve("babel-plugin-transform-regenerator"),
+
+		//Optional
 		require.resolve("plugin-proposal-optional-chaining"),
 
 		[	
