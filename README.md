@@ -8,3 +8,9 @@ Custom scripts, providing:
 # Run...
 
 `npm publish`
+
+
+### Publishing
+
+Do it
+
