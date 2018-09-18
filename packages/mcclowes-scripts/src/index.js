@@ -8,7 +8,6 @@ const [ _, __, cmd, subcmd, ] = process.argv;
 
 const printCmds = () =>
 	console.error(`
-ERR!
 Valid commands:
 
 $ build 
