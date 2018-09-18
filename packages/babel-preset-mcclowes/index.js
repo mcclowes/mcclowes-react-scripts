@@ -30,5 +30,8 @@ module.exports = {
 				polyfill: false,
 			},
 		],
+
+		//Optional
+		require.resolve("plugin-proposal-optional-chaining"),
 	],
 };
