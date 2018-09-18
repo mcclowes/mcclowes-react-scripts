@@ -8,7 +8,7 @@ const [ _, __, cmd, subcmd, ] = process.argv;
 
 const printCmds = () =>
 	console.error(`
-valid commands are:
+Valid commands are:
 
 $ build 
 	builds everything from src -> lib
