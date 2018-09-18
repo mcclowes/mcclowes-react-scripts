@@ -14,6 +14,7 @@
 	},
 	"dependencies": {
 		"@babel/plugin-proposal-optional-chaining": "^7.0.0",
+		"@babel/plugin-proposal-pipeline-operator": "^7.0.0",
 		"babel-plugin-add-react-displayname": "^0.0.5",
 		"babel-plugin-inline-react-svg": "^0.5.4",
 		"babel-plugin-preval": "^3.0.1",
