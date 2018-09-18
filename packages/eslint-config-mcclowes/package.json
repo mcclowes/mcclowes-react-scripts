@@ -1,7 +1,7 @@
 {
 	"name": "eslint-config-mcclowes",
 	"description": "Config to make things looks pretty",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"main": "index.js",
 	"author": "Max Clayton Clowes <maxcc@me.com>",
 	"license": "MIT",
