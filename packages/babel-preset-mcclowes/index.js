@@ -41,7 +41,7 @@ module.exports = {
 
 		// Optional
 
-		require.resolve("plugin-proposal-optional-chaining"),
-		require.resolve("plugin-proposal-pipeline-operator"),
+		require.resolve("transform-optional-chaining"),
+		require.resolve("transform-pipeline-operator"),
 	],
 };
